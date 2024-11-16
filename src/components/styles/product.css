@@ -1,6 +1,23 @@
-table{
-    width: 100%;
-    justify-content:center;
-    height: 600px;
-    top: 50%;
+.product{
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin: 12px;
+    background-color: white;
+    display: inline-block;
+    width: 250px;
+    height: 340px;
+}
+
+.product h3{
+    color: tomato;
+}
+
+.price-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices{
+    margin-bottom: 5px;
 }

@@ -1,0 +1,7 @@
+content{
+    min-height: calc(100vh - 109px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
