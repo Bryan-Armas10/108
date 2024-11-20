@@ -1,4 +1,4 @@
-.about{
+/* .about{
     min-width: 400px;
     background-color: #e6e6e6;
     margin-top: 30px;
@@ -6,10 +6,10 @@
 
 .about h3{
     color: darkcyan;
-}
+} */
 
 
-/* .about {
+.about {
     background-color: #e6e6e6;
     padding: 20px; 
     margin-top: 30px; 
@@ -26,5 +26,5 @@
     .about {
       padding: 10px; 
     }
-  } */
+  }
   

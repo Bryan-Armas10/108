@@ -8,12 +8,40 @@ var catalog = [
         "_id": "2947"
     },
     {
-        "title": "Cabbage",
-        "category": "Vegetable",
+        "title": "Banana",
+        "category": "Fruit",
         "price": 11.37,
         "image": "/images/banana.jpg",
-        "_id": "94787"
+        "_id": "9478"
     },
+    {
+        "title": "Grape",
+        "category": "Fruit",
+        "price": 10.17,
+        "image": "/images/Grape.webp",
+        "_id": "2369"
+    },
+    {
+        "title": "Carrot",
+        "category": "Vegetable",
+        "price": 15.44,
+        "image": "/images/carrot.webp",
+        "_id": "2351"
+    },
+    {
+        "title": "Tomato",
+        "category": "Vegetable",
+        "price": 13.76,
+        "image": "/images/TOMATO.jpg",
+        "_id": "3856"
+    },
+    {
+        "title": "Lettuce",
+        "category": "Vegetable",
+        "price": 9.99,
+        "image": "/images/lettuce.jpg",
+        "_id": "5546"
+    }
 ];
 
 

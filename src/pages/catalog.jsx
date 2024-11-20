@@ -28,6 +28,10 @@ function Catalog(){
             <div>
                 <Product data={catalog[0]}></Product>
                 <Product data={catalog[1]}></Product>
+                <Product data={catalog[2]}></Product>
+                <Product data={catalog[3]}></Product>
+                <Product data={catalog[4]}></Product>
+                <Product data={catalog[5]}></Product>
             </div>
         </div>
     );
