@@ -1,10 +1,10 @@
-/* .content{
+.content{
     width: 100%;
     min-height: auto;
     height: calc(100vh - 109px);
-} */
+}
 
-.content {
+/* .content {
     width: 100%;
     padding: 20px 0; 
     color: white; 
@@ -16,4 +16,4 @@
       padding: 10px 0;
     }
   }
-  
+   */
