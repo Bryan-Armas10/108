@@ -25,7 +25,7 @@ var catalog = [
         "title": "Carrot",
         "category": "Vegetable",
         "price": 15.44,
-        "image": "/images/carrot.webp",
+        "image": "/images/carrots.webp",
         "_id": "2351"
     },
     {
@@ -44,6 +44,7 @@ var catalog = [
     }
 ];
 
+var categories = ['Fruit','Vegetables'];
 
 class DataService {
 
@@ -52,6 +53,13 @@ class DataService {
         
         // hardcore  values
         return catalog;
+    }
+
+    getCategories() {
+        // call the server
+
+        // hardcoded vvalues
+        return categories;
     }
 }
 

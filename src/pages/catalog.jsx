@@ -5,11 +5,14 @@ import dataService from "../services/dataService";
 
 function Catalog(){
     const [catalog, setCatalog] = useState([]);
+    const [categories, setCategories] = useState([]);
 
     function loadData(){
         let productList = dataService.getProducts();
-        console.log(productList);
         setCatalog(productList);
+
+        let categoriesList = dataService.getCategories();
+        setCategories(categoriesList);
     }
 
     useEffect(function() {
@@ -17,6 +20,7 @@ function Catalog(){
         loadData();
     }, []);
 
+    // if catalog is empty
     if(!catalog.length) return "Loading...";
 
     return(
@@ -25,13 +29,14 @@ function Catalog(){
                 <h1>This is were the catalog it's going to be</h1>
 
             </div>
+
+            {/* map the categories into buttons */}
+            <div className="filters">
+                {categories.map( cat => <button className="btn btn-sm btn-outline-success">{cat}</button>)}
+            </div>
+
             <div>
-                <Product data={catalog[0]}></Product>
-                <Product data={catalog[1]}></Product>
-                <Product data={catalog[2]}></Product>
-                <Product data={catalog[3]}></Product>
-                <Product data={catalog[4]}></Product>
-                <Product data={catalog[5]}></Product>
+                {catalog.map( prod => <Product data={prod}></Product>)}
             </div>
         </div>
     );
