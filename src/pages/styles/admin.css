@@ -1,9 +1,10 @@
 .admin {
-    background-color: #dde4ea;
+    /* background-color: #dde4ea; */
+    background-color: #b8e0d2;
     padding: 30px;
 }
 
-.adminn .parent {
+.admin .parent {
     display: flex;
 }
 
@@ -20,8 +21,9 @@
     border-radius: 4px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: white;
+    background-color: #d6eadf;
     margin: 0 20px;
+    text-align: left;
 }
 
 .admin .parent .form h3 {

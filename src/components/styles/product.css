@@ -2,11 +2,10 @@
     border: 1px solid #333;
     border-radius: 4px;
     margin: 12px;
-    background-color: white;
+    background-color: #95b8d1;
     display: inline-block;
     width: 250px;
     height: 340px;
-    /* height: 400px; */
     vertical-align: top;
 }
 
@@ -30,7 +29,6 @@
 .prices{
     margin-bottom: 5px;
 }
-
 
 .product .prices .total{
     margin-right: 25px;

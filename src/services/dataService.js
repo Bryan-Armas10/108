@@ -32,7 +32,7 @@ var catalog = [
         "title": "Tomato",
         "category": "Vegetable",
         "price": 13.76,
-        "image": "/images/TOMATO.jpg",
+        "image": "/images/Tomatos.jpg",
         "_id": "3856"
     },
     {
@@ -49,7 +49,7 @@ var categories = ['Fruit','Vegetables'];
 class DataService {
 
     getProducts() {
-        // call thhe server to retrieve products
+        // call the server to retrieve products
         
         // hardcore  values
         return catalog;

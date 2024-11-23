@@ -1,16 +1,5 @@
-/* .about{
-    min-width: 400px;
-    background-color: #e6e6e6;
-    margin-top: 30px;
-}
-
-.about h3{
-    color: darkcyan;
-} */
-
-
 .about {
-    background-color: #e6e6e6;
+    background-color: #eac4d5;
     padding: 20px; 
     margin-top: 30px; 
     max-width: 100%;  
@@ -27,4 +16,3 @@
       padding: 10px; 
     }
   }
-  
