@@ -1,4 +1,7 @@
 import "./styles/navbar.css";
+
+import { Link } from "react-router-dom";
+
 function Navbar(){
     return (
         <div>
@@ -9,20 +12,24 @@ function Navbar(){
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link class="nav-link active" aria-current="page" to="/home">Home</Link>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <Link class="nav-link active" aria-current="page" to="/catalog">Catalog</Link>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <Link class="nav-link active" aria-current="page" to="/admin">Admin</Link>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <Link class="nav-link active" aria-current="page" to="/about">About</Link>
                     </li>
                 </ul>
+                
+                <div className="d-flex" role="searh">
+                    <Link class="btn btn-outline-light me-2" to="/cart">View Cart</Link>
+                </div>
                 </div>
             </div>
             </nav>

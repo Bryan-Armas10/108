@@ -1,4 +1,4 @@
-.content {
+/* .content {
     width: 100%;
     padding: 20px 0; 
     color: white; 
@@ -9,4 +9,9 @@
     .content {
       padding: 10px 0;
     }
+  } */
+  
+  .footer {
+    background-color: #808b96;
+    
   }
