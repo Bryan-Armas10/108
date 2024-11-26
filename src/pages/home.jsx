@@ -20,7 +20,7 @@ function Home() {
                     <hr />
                     <Link className="btn btn-lg btn-success" to="/catalog">Check our amazing catalog</Link>
                 </div>
-                <img className="main-img" src="/images/veg3.jpg" alt=""></img>
+                <img className="main-img" src="/images/veg3.webp" alt=""></img>
             </div>
 
             <div className="relative">
