@@ -1,8 +1,14 @@
+import { useContext } from "react";
+import GlobalContext from "../context/globalContext"
 import "./styles/navbar.css";
 
 import { Link } from "react-router-dom";
 
 function Navbar(){
+
+    const user = useContext(GlobalContext).user;
+
+
     return (
         <div>
             <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
@@ -28,6 +34,9 @@ function Navbar(){
                 </ul>
                 
                 <div className="d-flex" role="searh">
+                    <div className="btn btn-outline-light me-2">
+                        {user.id} - {user.name}
+                     </div>
                     <Link class="btn btn-outline-light me-2" to="/cart">View Cart</Link>
                 </div>
                 </div>
