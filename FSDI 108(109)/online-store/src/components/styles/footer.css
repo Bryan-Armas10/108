@@ -1,0 +1,17 @@
+/* .content {
+    width: 100%;
+    padding: 20px 0; 
+    color: white; 
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      padding: 10px 0;
+    }
+  } */
+  
+  .footer {
+    background-color: #808b96;
+    
+  }
